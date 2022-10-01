@@ -1,0 +1,70 @@
+3-letter words
+
+ 1	అడవి		forest
+ 2	ఆకలి		hunger
+ 3	పర్వతం		mountain
+ 4	సహనం		patience
+ 5	ఓపిక		stomach
+ 6	ఖరీదు		price
+ 7	చదువు		to read
+ 8	తలుపు		door
+ 9	సగము		half
+10	సాయంత్రం		evening
+11	పోలిక		likeness
+12	బరువు		weight
+13	ఏర్పాట్లు		arrange
+14	మధ్యస్థ		medium
+15	అద్భుత		fairy
+16	ఉపాయం		trick
+17	ముసుగు		mask
+18	కాలుష్యం		pollution
+19	బటన్		button
+20	నగరం		city
+
+4-letter words
+
+ 1	ఉదయము		morning
+ 2	ఎగతాళి		ridicule
+ 3	నిముషము		minute
+ 4	సోమవారం		Monday
+ 5	భయంకరం		awful
+ 6	దృఢమైన		firm
+ 7	విచారణ		inquiry
+ 8	గజిబిజి		mess
+ 9	వ్యవహారం		affair
+10	పరిణామం		evolution
+11	రచయిత		writer
+12	థియేటర్		theater
+13	సోదరుడు		brother
+14	స్నేహితుడు		friend
+15	సొరచేప		shark
+16	అర్ధరాత్రి		midnight
+17	కంప్యూటర్		computer
+18	పాఠశాల		school
+19	ప్రొఫెసర్		professor
+20	కార్యదర్శి		secretary
+
+5-letter words (and some of other lengths...)
+
+ 1	ఆదివారము		Sunday
+ 2	కృతజ్ఞతతో		grateful
+ 3	క్రమశిక్షణ		discipline
+ 4	కిలోమీటరు		kilometer
+ 5	బంగాళదుంప	potato
+ 6	నిర్వాహకుడు	manager
+ 7	ప్రయాణీకుడు	passenger
+ 8	వార్తాపత్రిక		newspaper
+ 9	అతిథి		guest (3)
+10	హోటల్		hotel (3)
+11	డీలర్		dealer (3)
+12	గురువు		teacher (3)
+13	సముద్ర		ocean (3)
+14	కస్టమర్		customer (4)
+15	పైలట్		pilot (3)
+16	పుస్తకం		book (3)
+17	మనిషి		man (3)
+18	చంద్రుడు		moon (3)
+19	సైకిల్		bicycle (3)
+20	ఉదయము		to wash (4)
+
+

@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, div, pre {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+}
+
+#main_screen_logo {
+    position: absolute;
+    margin: 20px;
+    width: 320px;
+    height: 80px;
+}
+
+#game_title {
+    position: absolute;
+    margin: 20px 20px 20px 380px;
+    width: 1150px;
+    height: 80px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    color:white;
+}
+
+#menu_buttons {
+    position: absolute;
+    margin: 20px 20px 20px 1450px;
+    width: 300px;
+    height: 80px;
+    white-space: nowrap;
+}
+
+#help_button {
+    display:inline-block;
+    margin: 5px 5px 5px 0px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+#stat_button {
+    display:inline-block;
+    margin: 5px 5px 5px 0px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+#profile_button {
+    display:inline-block;
+    margin: 5px 5px 5px 0px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+#secondary_screen_buttons {
+    position: absolute;
+    margin: 20px 20px 20px 20px;
+    width: 400px;
+    height: 80px;
+    white-space: nowrap;
+}
+
+#back_button {
+    display: inline-block;
+    margin: 5px 5px 5px 0px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+#add_button {
+    display: inline-block;
+    margin: 5px 5px 5px 0px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+#secondary_screen_logo {
+    position: absolute;
+    margin: 20px 20px 20px 1650px;
+    width: 320px;
+    height: 80px;
+}
+
+#clue_box {
+    background-color: white;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 250px;
+    padding: 20px;
+    width: 350px;
+    height: 200px;
+    font-weight: bold;
+    border-style: double;
+    border-width: 10px;
+    border-color: goldenrod;
+}
+
+#game_panel {
+    position: absolute;
+    margin-left: 750px;
+    width: 825px;
+    height: 660px;
+    white-space: nowrap;
+}
+
+#character_tile_panel {
+    display: inline-block;
+    margin: 20px;
+    width: 380px;
+    height: 625px;
+}
+
+#animal_tile_panel {
+    display: inline-block;
+    margin: 20px 20px 20px 0px;
+    width: 380px;
+    height: 625px;
+}
+
+#game_message {
+    background-color: white;
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 250px;
+    padding: 20px;
+    width: 350px;
+    height: 200px;
+    font-weight: bold;
+    border-style: double;
+    border-width: 10px;
+    border-color: goldenrod;
+}
+
+#character_table {
+    background-color:white;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 360px;
+    height: 360px;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+#animal_table {
+    background-color:white;
+    margin-left: 0px;
+    margin-right: auto;;
+    width: 360px;
+    height: 360px;
+    border: 5px solid;
+    border-collapse: collapse;
+}
+
+#submission_panel {
+    position: absolute;
+    margin-top: 680px;
+    margin-left: 650px;
+    width: 825px;
+    height: 120px;
+    white-space: nowrap;
+}
+
+form {
+    margin: 20px;
+}
+
+#input_box {
+    position: absolute;
+    padding-left: 20px;
+    width: 585px;
+    height: 70px;
+    font-size: 48px;
+    border: 2px solid;
+}
+
+#submit_button {
+    position: absolute;
+    margin-left: 615px;
+    width: 175px;
+    height: 70px;
+    font-size: 24px;
+    color:black;
+    background-color:#bdb2ff;
+    border-color: #bdb2ff;
+    border-radius: 20px;
+}
+
+#stat_modal_title {
+    width: 100%;
+    height: 50px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#stat_values {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+#stat_labels {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.stat_value {
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.stat_label {
+    display: inline-block;
+    width: 100px;
+    height: 75px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+  
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #1ab188;
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+
+.button:hover, .button:focus {
+    background: #179b77;
+}
+
+.top-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-row > div {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.top-row > div:last-child {
+    margin: 0;
+}
+  
+.button-block {
+    display: block;
+    width: 100%;
+}
+
+#body_panel {
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#form_panel {
+    background-color: white;
+    position: absolute;
+    padding-top: 40px;
+    margin-top: 40px;
+    margin-left: 700px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: 24px;
+    border-style: double;
+    border-width: 10px;
+    border-color: goldenrod;
+}
+
+#email_field {
+    margin: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 400px;
+    font-size: 24px;
+}
+
+#password_field {
+    margin: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 400px;
+    font-size: 24px;
+}
+
+#login_submit_button {
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    color:white;
+    background-color:royalblue;
+}
+
+#login_message {
+    margin-top: 20px;
+    margin-left: 45px;
+    padding-top: 20px;
+    text-align:center;
+    font-size: 24px;
+    height: 100px;
+    width: 400px;
+    color:red;
+}
+
+.input_label {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.input_text_field {
+    margin: 10px;
+    padding-left: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 24px;
+}
+
+.input_text_area {
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    width: 400px;
+    height: 100px;
+    resize: none;
+}
+
+.form_panel_submit {
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    color:white;
+    background-color:royalblue;
+}
